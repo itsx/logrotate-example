@@ -7,4 +7,9 @@ https://stackoverflow.com/questions/8962477/logrotate-files-with-date-in-the-fil
 
 https://unix.stackexchange.com/questions/77442/how-to-atomically-change-rotate-log-file-every-minute
 
+Force rotate::
+
+    sudo logrotate -fv /etc/logrotate.d/web-logs-sync
+
+    tree /srv/web_logs_sync/
 
